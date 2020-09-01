@@ -639,7 +639,11 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
   border-color: #000000 !important;
 }
-.form-control:-webkit-input-placeholder {
+.form-control:-
+
+
+
+-input-placeholder {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.1rem;
   line-height: 1.5;
@@ -1157,7 +1161,7 @@ a {
   transition: all .3s;
   border-bottom: 1px solid transparent;
   background: rgba(0, 0, 0, 0.3);
-  -webkit-backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: var(--blur);
 }
 .cid-s48OLK6784 .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
